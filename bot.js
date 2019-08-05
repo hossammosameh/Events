@@ -46,7 +46,7 @@ client.on("message", async message => {
                                             let bc = new Discord.RichEmbed()
                                             .setColor("RANDOM")
                                             .setThumbnail(message.author.avatarURL)
-                                            .setTitle("Broadcast")
+                                            .setTitle("السلام عليكم")
                                             .addField("Server", message.guild.name)
                                             .addField("Sender", message.author.username)
                                             .addField("Message", args);
